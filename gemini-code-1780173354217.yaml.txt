@@ -1,0 +1,30 @@
+name: Compile X MADSKILLZ Binary
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v4
+
+      - name: Set up Java Development Kit (JDK)
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'zulu'
+          java-version: '17'
+
+      - name: Grant Execute Permission for Gradle
+        run: chmod +x gradlew
+
+      - name: Compile X MADSKILLZ Binary (APK)
+        run: ./gradlew assembleDebug
+
+      - name: Upload Installer Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: X-MADSKILLZ-V2-Installer
+          path: app/build/outputs/apk/debug/app-debug.apk
