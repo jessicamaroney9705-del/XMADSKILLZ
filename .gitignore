@@ -1,0 +1,30 @@
+# Gradle files
+.gradle/
+build/
+*.apk
+*.ap_
+
+# Local configuration file
+local.properties
+
+# IDE specific files
+.idea/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.c9/
+*.launch
+
+# Android Studio
+.AS_settings/
+*.jks
+*.keystore
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build output
+*.log

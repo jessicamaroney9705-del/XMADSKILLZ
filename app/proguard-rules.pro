@@ -1,0 +1,3 @@
+-keep class com.kbko.xmadskillz.** { *; }
+-keepattributes SourceFile,LineNumberTable
+-renamesourcefileattribute SourceFile

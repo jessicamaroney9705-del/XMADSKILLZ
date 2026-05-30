@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">X MADSKILLZ</string>
+    <string name="engine_active_msg">X MADSKILLZ Engine Active: System synchronized.</string>
+    <string name="btn_activate">Activate Omni</string>
+    <string name="overlay_permission_msg">Enable Overlay permission for X MADSKILLZ, then press activate.</string>
+    <string name="permissions_required_msg">Hardware access parameters required for background deployment.</string>
+    <string name="engine_online_msg">X MADSKILLZ Engine Online.</string>
+</resources>
