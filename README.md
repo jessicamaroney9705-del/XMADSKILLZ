@@ -5,7 +5,7 @@ An advanced Android application featuring voice activation and floating bubble o
 ## Features
 
 - 🎤 **Voice Activation Engine** - Continuous background voice listening
-- 🫧 **Floating Bubble UI** - Customizable overlay interface
+- 🤖 **Floating Bubble UI** - Customizable overlay interface
 - 📱 **Android 8.0+** - Supports API 26 and above
 - 🔒 **Secure Permissions** - Proper permission handling for microphone and overlay
 
