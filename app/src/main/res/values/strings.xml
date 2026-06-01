@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Omni Assistant</string>
-    <string name="brand_status">Omni Assistant is running.</string>
+    <string name="app_name">X MADSKILLZ</string>
+    <string name="brand_status">X MADSKILLZ is running.</string>
     <string name="permission_required">Microphone permission required.</string>
     <string name="permission_grant">Grant permissions and restart app.</string>
     <string name="accessibility_service_description">Accessibility support service</string>
+    <string name="btn_activate">Activate X MADSKILLZ</string>
+    <string name="overlay_permission_msg">Please enable overlay permission to continue</string>
+    <string name="engine_online_msg">X MADSKILLZ Engine Online</string>
+    <string name="permissions_required_msg">All permissions are required to run X MADSKILLZ</string>
 </resources>
